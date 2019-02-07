@@ -1,6 +1,6 @@
 class Momo:
 
 	def we_print():
-		print("Test")
+		print("yep")
 
-		print("jfjfk")
+		print("kfjfk")
