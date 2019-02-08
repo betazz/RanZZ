@@ -9,4 +9,4 @@ def one_arg(int):
 if __name__ == '__main__':
 	one_arg(3)
 
-print("Zingy")
+print('This is python version {}' .format(platform.python_version()))

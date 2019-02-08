@@ -4,7 +4,7 @@ import unittest
 class TestOne(unittest.TestCase):
   
     def test_1_2_3(self):
-        self.assertEqual( 9, 12)
+        self.assertEqual( 1, 9)
  
     
  
