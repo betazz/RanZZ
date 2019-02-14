@@ -1,6 +1,6 @@
 
 def no_arg():
-	print("phone")
+	print("telefono")
 
 def one_arg(int):
 	# print(int*100)
@@ -9,4 +9,4 @@ def one_arg(int):
 if __name__ == '__main__':
 	one_arg(3)
 
-print('This is python version {}' .format(platform.python_version()))
+print('This is python version' )
