@@ -5,9 +5,9 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 def one_arg():
 	binary = FirefoxBinary('/Applications/Firefox.app/Contents/MacOS/firefox-bin')
 	driver = webdriver.Firefox(executable_path = '/Users/zingarazbarragan/Downloads/geckodriver',firefox_binary=binary)
-	driver.get("http://www.python.org")
+	driver.get("http://www.gmail.com")
 	assert "Python" in driver.title
-	elem = driver.find_element_by_name("qa")
+	elem = driver.find_element_by_name("q")
 	elem.clear()
 	elem.send_keys("pycon")
 	elem.send_keys(Keys.RETURN)
@@ -17,5 +17,3 @@ def one_arg():
 
 if __name__ == '__main__':
 	one_arg()
- 
-
